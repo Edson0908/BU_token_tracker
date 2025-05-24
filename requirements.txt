@@ -1,1 +1,8 @@
- 
+requests
+python-dotenv
+web3
+gspread
+google-auth
+solana
+base58
+solders
