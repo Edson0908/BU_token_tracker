@@ -14,11 +14,22 @@
   "substrate_chains": ["bifrost-kusama", "astar", "shiden"],
   "google_config": {
     "sheet_id": "TokenTracker",
+    "sheet_id_num": "1RriUyHpGGg3Mq-sCBzHFkEefZWSzOI72DSZURK5BWt4",
     "sheet_name": "TokenBalance",
     "api_key": "config/bu-portfolio-mnt-eca1a5e2bbde.json"
   },
   "params": {
     "sleep_time": 5,
     "max_retries": 10
+  },
+  "sheet_format": {
+    "TokenBalance": {
+      "Balance": "number_2",
+      "Price": "number_4",
+      "24h Change": "percent_2",
+      "7d Change": "percent_2",
+      "30d Change": "percent_2",
+      "Value": "number_2"
+    }
   }
 }

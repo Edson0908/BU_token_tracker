@@ -69,3 +69,5 @@ ENV/
 .env
 
 config/bu-portfolio-mnt-eca1a5e2bbde.json
+
+private-data/

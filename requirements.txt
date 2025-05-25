@@ -6,3 +6,4 @@ google-auth
 solana
 base58
 solders
+google-api-python-client
